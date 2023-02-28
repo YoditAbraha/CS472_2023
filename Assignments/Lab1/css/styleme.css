@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(141, 172, 89);
+}
+h1{
+    color: rgb(42, 98, 203);
+}
+em{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(182, 66, 24);
+}
+div{
+    font-size: medium;
+    font-weight: bold;
+}
+h3{
+    color: rgb(12, 133, 133);
+}
+span{
+    color: rgb(63, 3, 15);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: crimson;
+    font-style: italic;
+}
