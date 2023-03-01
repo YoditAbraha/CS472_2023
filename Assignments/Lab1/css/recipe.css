@@ -1,5 +1,5 @@
 body{
-   
+    background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg);
     font-size: 12pt;
     font-family: Georgia, Garamond, serif;
 
@@ -9,7 +9,7 @@ header{
     font-weight: bold;
     text-align: center;
 }
-h3,h2{
+h3,h2,h1{
     color: #A4A400;
     background-color: #F0F0F0;
     font-family: 'Lucida Sans Unicode', Helvetica, Arial,sans-serif;
@@ -25,6 +25,8 @@ em{
     font-style: normal;
     text-decoration: line-through;
 }
-div.class{
+div{
     background-color: #FFFFA8;
+    font-style: italic;
+    margin-left: 40px;
 }
