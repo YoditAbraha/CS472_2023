@@ -8,16 +8,16 @@ header{
     font-size: 22pt;
     font-weight: bold;
     text-align: center;
-    padding-left: 20;
+   
 }
 h3,h2,h1{
     color: #A4A400;
     background-color: #F0F0F0;
-    font-family: 'Lucida Sans Unicode', Helvetica, Arial,sans-serif;
+    font-family: Lucida Sans' , Unicode', Helvetica, Arial,sans-serif;
     font-size: 18pt;
     text-decoration: underline;
     display: inline-block;
-    padding-left: 12px;
+    
 }
 a{
    color: #A4A400;
@@ -35,4 +35,13 @@ div{
 #abbr:hover{
     font-weight: bold;
     font-size: 20px;
+}
+pre{
+    padding-left: 1185px;
+}
+.aa{
+    padding-left: 1485px;
+}
+.bb{
+    padding-left: 1485px;
 }
