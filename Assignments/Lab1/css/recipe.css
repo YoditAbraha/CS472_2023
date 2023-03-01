@@ -1,0 +1,30 @@
+body{
+   
+    font-size: 12pt;
+    font-family: Georgia, Garamond, serif;
+
+}
+header{
+    font-size: 22pt;
+    font-weight: bold;
+    text-align: center;
+}
+h3,h2{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial,sans-serif;
+    font-size: 18pt;
+    text-decoration: underline;
+    display: inline-block;
+}
+a{
+   color: #A4A400;
+}
+
+em{
+    font-style: normal;
+    text-decoration: line-through;
+}
+div.class{
+    background-color: #FFFFA8;
+}
