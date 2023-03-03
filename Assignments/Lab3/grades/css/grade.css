@@ -6,9 +6,10 @@ body{
 }
 
 .legend{
-    width: 30%;
+    width: 40%;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: rgb(216, 173, 110);
 }
 .grades{
     width: 10%;
