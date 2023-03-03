@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/grade.css">
+    <title>Retrieve Grade</title>
+  </head>
+  <body>
+        <form action="https://mumstudents.org/params.php" method="post" id="form">
+            <h1>Retrieve your grade</h1>
+            <div class="container">
+                <div class="name">
+                    <label for="name">NAME
+                    <input type="text" id="name">
+                </label>
+                </div>
+                <div class="SID">
+                    <label for="SID">StudentID</label>
+                    <input type="text" id="SID"><br>
+                </div>
+                <br>
+                <label for="assignment">Assignments</label>
+                <select name="assignment" id="assignment">
+                    <option value="Lab-0">Lab-0</option>
+                    <option value="Lab-1">Lab-1</option>
+                    <option value="Lab-2">Lab-2</option>
+                    <option value="Lab-3">Lab-3</option>
+                </select>
+                
+                <div>
+                    <fieldset class="legend">
+                        <legend>Student's Entry</legend>
+                        <div>
+                            <label for="February">February</label>
+                            <input type="radio" id="February" name="Student's Entry" value="February">
+                        </div>
+                        <div>
+                            <label for="April">April</label>
+                            <input type="radio" id="April" name="Student's Entry" value="April">
+                        </div>
+                        <div>
+                            <label for="August">August</label>
+                            <input type="radio" id="August" name="Student's Entry" value="August">
+                        </div>
+                        <div>
+                            <label for="November">November</label>
+                            <input type="radio" id="November" name="Student's Entry" value="November">
+                        </div>
+                    </fieldset>
+                </div>
+
+                <label for="confirm">
+                    <input type="checkbox" value="confirm" id="confirm" name="confirm" required>
+                    I confirm this is my grades
+                </label>
+                <div class="grades">
+                    <input type="submit" value="GetGrade!">
+                </div>
+            </div> 
+        
+        </form>
+  </body>
+</html>
