@@ -1,0 +1,52 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Tip Calculator</title>
+</head>
+<body>
+	<label for="billAmount">Bill Amount:</label>
+	<input type="text" id="billAmount"><br><br>
+
+	<label for="tipPercentage">Tip Percentage:</label>
+	<input type="text" id="tipPercentage"><br><br>
+
+	<button onclick="calculateTip()">Calculate Tip</button><br><br>
+
+	<label for="tipAmount">Tip Amount:</label>
+	<input type="text" id="tipAmount" readonly>
+</body>
+<script>
+function calculateTip() {
+  var billAmount = parseFloat(document.getElementById("billAmount").value);
+  var tipPercentage = parseFloat(document.getElementById("tipPercentage").value);
+
+  // calculate the tip amount
+  var tipAmount = billAmount * (tipPercentage / 100);
+
+  // update the tip amount input field
+  document.getElementById("tipAmount").value = tipAmount.toFixed(2);
+}
+</script>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tip Calculator</title>
+</head>
+<body>
+	<h1>Tip Calculator</h1>
+	<label for="bill">Bill Total:</label>
+	<input type="number" id="bill" name="bill"><br><br>
+	<label for="service">Service:</label>
+	<select id="service" name="service">
+		<option value="0.20">Excellent (20%)</option>
+		<option value="0.15">Good (15%)</option>
+		<option value="0.10">Fair (10%)</option>
+		<option value="0.05">Poor (5%)</option>
+	</select><br><br>
+	<button onclick="calculateTip()">Calculate Tip</button>
+	<p>Tip Amount: <span id="tip-amount"></span></p>
+	<p>Total Bill: <span id="total-bill"></span></p>
+	<script src="script.js"></script>
+</body>
+</html>
