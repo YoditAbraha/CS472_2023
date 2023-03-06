@@ -34,29 +34,71 @@
 </html> -->
 
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Task List</title>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/taskList.css">
+    <script src="../js/taskList.js" type="text/javascript"></script>
+    <title>Task List</title>
+  </head>
+  <body>
 
-  <h1>Task List</h1>
+    <!-- <h1>Task List</h1>
 
-  <form>
-    <label for="task">Task:</label>
-    <input type="text" id="task" name="task"><br><br>
+    <div class="main-container">
+      <label for="task">Task:</label>
+      <input type="text" id="task" name="task"><br><br>
 
-    <button type="button" id="add-task">Add Task</button>
-    <button type="button" id="clear-task">Clear Task</button><br><br>
+      <button type="button" onclick="addTask()">Add Task</button>
+      <button onclick="clearTask();">Clear Task</button><br><br>
 
-    <label for="task-list">Task List:</label>
-    <textarea id="task-list" name="task-list" rows="10" cols="50"></textarea>
-  </form>
+      <label for="task-list">Task List:</label>
+      <textarea id="textArea" name="task-list" rows="10" cols="50"></textarea>
+    </div>
 
-  <script>
-    
-  </script>
+    <script>
+      document.getElementById("textArea").innerHTML=localStorage.getItem("hello");
+          
+      
+          function addTask(){            
+              let x=document.getElementById("task").value;
+            document.getElementById("textArea").value += x;
+            document.getElementById("task").value="";
+            localStorage.setItem("hello",document.getElementById("textArea").value );
+            
+            
+          }
+          function clearTask(){
+            
+            document.getElementById("textArea").textContent="";
+          }
+    </script> -->
 
-</body>
+    <div class="first">
+      <h1 style="margin-bottom: 0;">Task List</h1>
+      <div class="left">
+          <h3>Task</h3>
+          
+          <input type="text" id="tskin" ><br><br>
+          <button type="button" onclick="addTask()">Add Task</button><br><br>
+          <button onclick="clearTask();">Clear Tasks</button>
+      </div><br>
+      <div class="right">
+        <h2>Task List</h2>
+          <textarea id="tArea" rows="7" cols="35"  placeholder=""></textarea>
+          
+      </div>
+  </div>
+  <div class="valid">
+    <a href="https://validator.w3.org/nu/?doc=https://yoditabraha.github.io/CS472_2023/">
+        <img src="../images/w3c-html.png" alt="Valid HTML5" /></a> <br />
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://yoditabraha.github.io/CS472_2023/">
+        <img src="../images/w3c-css.png" alt="Valid CSS" /></a>
+  </div>
+
+
+  </body>
 </html>
 

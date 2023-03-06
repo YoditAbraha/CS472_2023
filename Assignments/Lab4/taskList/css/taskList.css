@@ -1,20 +1,29 @@
 body{
-    padding: 0%;
-    margin:0%;
-}
-.main-container{
-    
-    column-count: 2;
-    width: 60%;
+    /* user-select: none;
+    overflow-y: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(63, 137, 164);   
+   }
    
-    padding-left: 50px;
-    padding-right: 0;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    margin-left: 350px;
-    margin-right: 150px;
+   .first{
+        column-count: 2;
+       width: 550px;
+       /* margin-top: 1%; */
+       border: 2px solid rgb(200, 147, 233);
+       padding: 70px;
+       background-color: rgb(172, 174, 67);
+       
+   }
+   .valid{
+    text-align:end;
+    margin-left: 5px;
+    display: inline;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
 
-    margin-top: 100px;
-    border-radius: 0;
-    border: 3px solid blue;
-}
+
+  }
+   
