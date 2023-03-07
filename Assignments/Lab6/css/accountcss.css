@@ -18,3 +18,13 @@ body{
     border-radius: 20px;
     border-style: outset;
 }
+.valid{
+    text-align:end;
+    margin-left: 5px;
+    display: inline;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+
+
+  }
