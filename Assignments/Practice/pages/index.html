@@ -1,76 +1,96 @@
 <!DOCTYPE html>
-<html>
-    <head> 
-        <title>jQuery goes to DOM-ville</title>
-        <style>
-            #change_me {
-            position: absolute;
-            top: 100px;
-            left: 400px;
-            font: 24px arial;}
-            #move_up #move_down #color #disappear {
-            padding: 5px;}
-        </style>
-        <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
-    </head>
-    <body>
-        <!-- <button id="move_up">Move Up</button>
-        <button id="move_down">Move Down</button>
-        <button id="color">Change Color</button>
-        <button id="disappear">Disappear/Re-appear</button>
-        <div id="change_me">Make Me Do Stuff!</div>
-        <script>
-            $(document).ready(function() {
-                $("#move_up").click( function() {
-                    $("#change_me").animate({top:30},200);
-                    });//end move_up
-
-                    $("#move_down").click( function() {
-                    $("#change_me").animate({top:500},2000);
-                    });//end move_down
-
-                    $("#color").click( function() {
-                    $("#change_me").css("color", "purple");
-                    });//end color
-                    
-                    $("#disappear").click( function() {
-                    $("#change_me").toggle("slow");
-                });//end disappear
-            });//end doc ready
-        </script> -->
-        
-            <!-- <h1>abc</h1><br>
-                <div>
-                    <h1>div-1</h1>
-                    <h1>div-2</h1>
-                </div>
-             <h1>xyz</h1>
-        <script>
-            $(document).ready(function(){
-                $("div>h1").css("background-color", "red");
-            });
-        </script> -->
-
-            <script>
-                
-            </script>
-           
-            <p>Is jQuery FUN or what? </p>
-
-<!-- <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <script>
-        // INSERT YOUR JQUERY CODE HERE 
-        $(document).ready(function(){
-                    $("p").append("YES!")
-                })
-        </script>
-    </head>
-    <body>
-    <p>Is jQuery FUN or what? </p>
-    </body>
-</html> -->
-            
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+    <script>
+      // $(document).ready(function(){
+      //     $("#bye").on("click", function(){
+      //         $("#Bye").show()
+      //         $("#Hello").hide()
+
+      //     });
+
+      //     $("#hello").on("click", function(){
+      //         $("#Hello").show()
+      //         $("#Bye").hide()
+      //     })
+
+      // });
+
+      // const byeBtn = document.getElementById("bye")
+      // const helloBtn = document.getElementById("hello")
+      // const Bye = document.getElementById("Bye")
+      // const Hello = document.getElementById("Hello")
+
+    //   (function () {
+    //     function DeletItem() {
+    //       $(this).parent().remove();
+    //     }
+    //     $(document).ready(function () {
+    //       $("button").click(DeletItem);
+    //     });
+    //   })();
+
+    //question 55
+    $(document).ready(function(){
+        $('body p:first').remove();
+    })
+    </script>
+  </head>
+  <body>
+    <!-- <div id="menu_wrapper">
+      <div class="left_col">
+        <h4>Dinner Entrees</h4>
+        <ul class="menu_entrees">
+          <li>
+            Thai-style Halibut
+            <ul class="menu_list">
+              <li>coconut milk</li>
+              <li>pan-fried halibut</li>
+              <li>early autumn vegetables</li>
+              <li>Thai spices</li>
+            </ul>
+          </li>
+          <li>
+            House Grilled Panini
+            <ul class="menu_list">
+              <li>prosciutto</li>
+              <li>provolone</li>
+              <li>avocado</li>
+              <li>sourdough roll</li>
+            </ul>
+          </li>
+          <li>
+            Southwest Slider
+            <ul class="menu_list">
+              <li>whole chiles</li>
+              <li>hamburger</li>
+              <li>pepperjack cheese</li>
+              <li>multigrain roll</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div> -->
+
+    <!-- <h1>Shopping Cart</h1>
+<ul>
+
+    <li> Shirt<button>Delete</button></li>
+    <li> Tie<button>Delete</button></li>
+    <li> Jacket<button>Delete</button></li>
+    <li> Hat<button>Delete</button></li>
+</ul>
+ -->
+
+     <p id="Hello">Hello World</p>
+    <p id="Bye">Bye world</p>
+
+    <button id="hello">hello world</button>
+    <button id="bye">bye world</button> 
+  </body>
 </html>
