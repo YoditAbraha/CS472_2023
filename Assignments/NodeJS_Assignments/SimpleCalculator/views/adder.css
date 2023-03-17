@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(106, 89, 122);
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    color: aquamarine;
+    text-align: center;
+}
+.main-container{
+    font-weight: bolder;
+position: absolute;
+border: 2px solid red;
+background-color: antiquewhite;
+padding: 100px;
+  top: 10%;
+  left: 40%;
+  /* transform: translate(-50%, -50%); */
+}
+input{
+    margin: 6px;
+}
+.dropdown{
+    padding: 10px;
+}
