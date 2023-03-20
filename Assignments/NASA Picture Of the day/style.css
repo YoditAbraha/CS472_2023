@@ -1,0 +1,28 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .picture-explanation-container {
+    display: block;
+  }
+  
+  #picture {
+    height: auto;
+    max-width: 100%;
+    margin-right: 1rem;
+    border-radius: 5%;
+  }
+  
+  #explanation {
+    letter-spacing: 0px;
+    line-height: 20px;
+    font-size:large;
+  }
